@@ -25,8 +25,6 @@ Changes to be committed:
         new file:   README.md
 ```
 
----
-
 ### 2️ `git commit -m`
 
 **Descripción:**
@@ -46,8 +44,6 @@ git commit -m "Agrego README con explicaciones de comandos"
  create mode 100644 README.md
 ```
 
-
----
 
 ### 3 `git push`
 
@@ -69,7 +65,6 @@ Counting objects: 100% (5/5), done.
 To https://github.com/ale28ab/LaboratorioGit.git
 ```
 
----
 
 ### 4️ `git pull`
 
@@ -88,8 +83,6 @@ git pull origin master
 Already up to date.
 ```
 
----
-
 ### 5 `git rebase`
 
 **Descripción:**
@@ -101,7 +94,6 @@ Permite mover o combinar commits de una rama sobre otra, manteniendo una histori
 git rebase master
 ```
 
----
 
 ### 6️ `git rebase -i HEAD~x`
 
@@ -125,7 +117,6 @@ squash i7j8k9l Tercer cambio
 📸 *Captura:*
 *Vista de commits seleccionados en modo interactivo.*
 
----
 
 ### 7️ `git status`
 
@@ -145,8 +136,6 @@ On branch master
 nothing to commit, working tree clean
 ```
 
----
-
 ### 8️ `git log`
 
 **Descripción:**
@@ -159,8 +148,6 @@ El modo simplificado (`--oneline`) muestra una vista más compacta.
 git log --oneline
 ```
 
----
-
 ### 9️ `git diff`
 
 **Descripción:**
@@ -172,7 +159,6 @@ Muestra las diferencias entre archivos modificados y su última versión confirm
 git diff README.md
 ```
 
----
 
 ### 10 `git branch`
 
@@ -194,9 +180,6 @@ git branch
 ```
 
 
-
----
-
 ### 11 `git branch -D`
 
 **Descripción:**
@@ -207,8 +190,6 @@ Elimina una rama local de forma forzada, incluso si no ha sido fusionada.
 ```bash
 git branch -D pruebas_git
 ```
-
----
 
 ### 12 `git checkout`
 
@@ -234,7 +215,7 @@ Modifica el último commit, permitiendo corregir su mensaje o agregar nuevos arc
 git commit --amend -m "Actualizo mensaje del último commit"
 
 
-### ⚙️ 14 `git commit --amend --no-edit`
+### 14 `git commit --amend --no-edit`
 
 **Descripción:**
 Actualiza el último commit **sin cambiar su mensaje**, ideal para incluir pequeños cambios olvidados.
@@ -252,10 +233,8 @@ git commit --amend --no-edit
 Durante este laboratorio se aplicaron y documentaron los comandos esenciales de Git, comprendiendo su utilidad en el control de versiones y colaboración.
 El resultado final es un repositorio funcional, con historial limpio, ramas gestionadas y un flujo completo de trabajo desde el entorno local hasta GitHub.
 
----
-
 **Autor:** Alejandro Aguilar
 **Repositorio:** [LaboratorioGit](https://github.com/ale28ab/LaboratorioGit)
 **Colaborador:** Kevin Gutiérrez
 
-```
+
