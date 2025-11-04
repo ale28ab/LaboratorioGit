@@ -4,7 +4,6 @@
 Este repositorio fue creado como práctica para aplicar los comandos más importantes de **Git**, comprendiendo su función, ejecución y resultado en un entorno colaborativo.  
 A continuación, se documenta cada comando con ejemplos, salidas esperadas y espacios para agregar capturas de pantalla de su ejecución.
 
----
 
 ## Comandos de Git explicados
 
