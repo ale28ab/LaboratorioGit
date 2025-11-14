@@ -1,10 +1,5 @@
 #  Laboratorio Git — Comandos Fundamentales
 
-## 📘Descripción general
-Este repositorio fue creado como práctica para aplicar los comandos más importantes de **Git**, comprendiendo su función, ejecución y resultado en un entorno colaborativo.  
-A continuación, se documenta cada comando con ejemplos, salidas esperadas y espacios para agregar capturas de pantalla de su ejecución.
-
-
 ## Comandos de Git explicados
 
 ### 1 `git add`
@@ -105,15 +100,8 @@ Ejecuta un **rebase interactivo**, donde se pueden editar, combinar (`squash`) o
 git rebase -i HEAD~3
 ```
 
-**Vista del editor:**
 
-```
-pick a1b2c3d Primer cambio
-reword e4f5g6h Segundo cambio
-squash i7j8k9l Tercer cambio
-```
 
-📸 *Captura:*
 *Vista de commits seleccionados en modo interactivo.*
 
 
@@ -226,14 +214,8 @@ git add archivo.txt
 git commit --amend --no-edit
 ```
 
-
-## Conclusión
-
-Durante este laboratorio se aplicaron y documentaron los comandos esenciales de Git, comprendiendo su utilidad en el control de versiones y colaboración.
-El resultado final es un repositorio funcional, con historial limpio, ramas gestionadas y un flujo completo de trabajo desde el entorno local hasta GitHub.
-
-**Autor:** Alejandro Aguilar
-**Repositorio:** [LaboratorioGit](https://github.com/ale28ab/LaboratorioGit)
-**Colaborador:** Kevin Gutiérrez
+Autor: Kevin Gutierrez
+Repositorio: [LaboratorioGit](https://github.com/ale28ab/LaboratorioGit)
+Colaborador: Alejandro Aguilar
 
 
